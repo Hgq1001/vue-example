@@ -1,0 +1,7 @@
+@function px2rem($px){
+	@return $px*320/750/20 + rem;
+}
+
+@function getThemeColor(){
+  @return #12b7f4;
+}
